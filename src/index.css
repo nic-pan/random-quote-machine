@@ -8,3 +8,8 @@ body {
   align-items: center;
   height: 100vh;
 }
+
+a.btn, button.btn {
+  border:1px solid #333;
+  border-radius: 0px;
+}
