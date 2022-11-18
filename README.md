@@ -1,2 +1,2 @@
-# random-quote-machine
-Random Quote Machine - a FreeCodeCamp course project.
+# Random Quote Machine
+A FreeCodeCamp course project.
