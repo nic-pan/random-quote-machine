@@ -9,8 +9,6 @@ const QuoteBox = ({quotes}) => {
     const changeColors = () => {
         const gradient = gradients[Math.floor(Math.random() * gradients.length)];
         const bgStyle = `linear-gradient(${gradient.deg}deg, ${gradient.colors.join(', ')})`;
-        console.log(bgStyle)
-        console.log(document.body)
         document.body.style.setProperty('background', bgStyle)
     }
     const getQuote = () => {
@@ -23,7 +21,6 @@ const QuoteBox = ({quotes}) => {
     const newQuote = () => {
         setCurrentQuote(()=>getQuote())
     }
-
 
     return (
         <div id="quote-box" className="p-5" style={{width: 'auto', maxWidth: "700px", border: '1px solid black', boxShadow: '10px 10px', backgroundColor: '#fff'}}>

@@ -17,7 +17,7 @@ function Quote ({text, author}) {
                 </div>
             </div>
             <div className="d-flex flex-row-reverse">
-                <p id="author" className="">- {author}</p>
+                <p id="author" style={{fontFamily: 'M PLUS Rounded 1c', fontSize: '20px'}}>- {author}</p>
             </div>
         </div>
     )
